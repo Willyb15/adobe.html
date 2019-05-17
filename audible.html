@@ -1,12 +1,12 @@
 var digitalData = {
 	PAGE_URL:"https://www.audible.com/blog/arts-culture/lori-gottlieb-memoir-about-making-connections/",
-	REPORT_SUITE:"audiblecomproduction, audibleglobal",
+	REPORT_SUITE:"audiblecomproduction,audibleglobal",
 	SURFACE:"desktop",
 	tm_timestamp:"hold"
 };
 digitalData.tm_timestamp = Date();
 if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    digitalData.REPORT_SUITE = "audible-mobile-new-prod, audibleglobal";
+    digitalData.REPORT_SUITE = "audible-mobile-new-prod,audibleglobal";
     digitalData.SURFACE = "mobile";
 }
 
